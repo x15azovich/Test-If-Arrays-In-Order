@@ -2,13 +2,8 @@
 import java.util.Comparator;
 
 import edu.princeton.cs.introcs.StdIn;
-
-
 public class MergeY {
-	// for small sub arrays
-	private static final int CUTOFF = 7; // cutoff to insertion sort
-
-	// This class should not be instantiated.
+	private static final int CUTOFF = 7; 
 	private MergeY() {
 	}
 
