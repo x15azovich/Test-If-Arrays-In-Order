@@ -3,17 +3,7 @@ import java.util.Comparator;
 
 import edu.princeton.cs.introcs.StdIn;
 
-/**
- * The <tt>MergeX</tt> class provides static methods for sorting an array using
- * an optimized version of mergesort.
- * <p>
- * For additional documentation, see <a
- * href="http://algs4.cs.princeton.edu/22mergesort">Section 2.2</a> of
- * <i>Algorithms, 4th Edition</i> by Robert Sedgewick and Kevin Wayne.
- *
- * @author Robert Sedgewick
- * @author Kevin Wayne
- */
+
 public class MergeY {
 	// for small sub arrays
 	private static final int CUTOFF = 7; // cutoff to insertion sort
